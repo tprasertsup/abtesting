@@ -198,7 +198,7 @@ def perform_chi2_homogeneity_test(observed_grid):
     :return: calculated p-value
     HINT: the chi2.cdf() function might come in handy!
     '''
-    return chi2.cdf(chi2_value(observed_grid), df_chi2(observed_grid))
+    return 1 - chi2.cdf(chi2_value(observed_grid), df_chi2(observed_grid))
 
 # These commented out lines are for testing your main functions.
 # Please uncomment them when finished with your implementation and confirm you get the same values :)
