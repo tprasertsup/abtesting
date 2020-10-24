@@ -4,6 +4,7 @@ from scipy.stats import chi2
 
 from abtesting_test import *
 
+'''
 # You can comment out these lines! They are just here to help follow along to the tutorial.
 print(t_dist.cdf(-2, 20))  # should print .02963
 # positive t-score (bad), should print .97036 (= 1 - .2963)
@@ -11,6 +12,7 @@ print(t_dist.cdf(2, 20))
 
 print(chi2.cdf(23.6, 12))  # prints 0.976
 print(1 - chi2.cdf(23.6, 12))  # prints 1 - 0.976 = 0.023 (yay!)
+'''
 
 # TODO: Fill in the following functions! Be sure to delete "pass" when you want to use/run a function!
 # NOTE: You should not be using any outside libraries or functions other than the simple operators (+, **, etc)
@@ -214,6 +216,7 @@ def data_to_num_list(s):
     return list(map(float, s.split()))
 
 
+'''
 # t_test 1:
 a_t1_list = data_to_num_list(a1)
 b_t1_list = data_to_num_list(b1)
@@ -256,3 +259,4 @@ c3_observed_grid = [a_c3_list, b_c3_list]
 print(chi2_value(c3_observed_grid))  # this should be .3119402
 # this should be .57649202
 print(perform_chi2_homogeneity_test(c3_observed_grid))
+'''
