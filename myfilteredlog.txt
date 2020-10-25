@@ -1,4 +1,3 @@
-			style	page load	item click	item id	user id	time to complete
 2020-10-23T11:54:39.661537+00:00	app[web.1]:	AB_TESTING:	A	1603454079054	0	0	hknhewi	0
 2020-10-23T11:55:13.022229+00:00	app[web.1]:	AB_TESTING:	B	1603454112685	0	0	slrnrsah	0
 2020-10-23T11:55:16.017074+00:00	app[web.1]:	AB_TESTING:	B	1603454112685	1603454115880	mp4	slrnrsah	3195
