@@ -1,6 +1,9 @@
 from format_data import time_complete_a, time_complete_b, return_rate_a, return_rate_b
 from abtesting import *
 
+print(" ".join([str(i) for i in time_complete_a]))
+print(" ".join([str(i) for i in time_complete_b]))
+
 print("Time to complete")
 print("avg time to completion of A: ", get_avg(time_complete_a))
 print("avg time to completion of B: ", get_avg(time_complete_b))
